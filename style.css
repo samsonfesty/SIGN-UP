@@ -1,0 +1,101 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    color: rgb(150, 22, 150);
+    margin-top: -7px;
+    font-family: monospace;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    width: 100%;
+    background-color: black;
+    opacity: 78%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(151, 8, 151);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
+.contain{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 40%;
+    height: 450px;
+    background-color: rgb(56, 2, 56);
+    margin-top: 2%;
+    box-shadow: 10px 10px solid gray;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.form{
+    padding: 20px;
+}
+#input1, #input2, #input3, #input4, #input5{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 450px;
+    background-color: rgb(146, 39, 146);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+}
+.radio input[type="checkbox"]{
+    background-color: indigo;
+}
+.check{
+    color: rgb(94, 88, 88);
+    font-size: 14px;
+}
+#submitbtn{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(148, 26, 148);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.foot{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+}
+.foot p{
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
